@@ -3,7 +3,7 @@ import { View, Text } from "react-native";
 import Title from "../../components/Title";
 import styles from "./styles";
 
-export default function Profile() {
+export default function Profile({ route }) {
   const { user } = route.params;
 
   return (

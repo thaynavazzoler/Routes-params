@@ -9,9 +9,9 @@ import DrawerRoutes from "./drawer.routes";
 export default function Routes() {
   return (
     <NavigationContainer>
-      {/*<tackRoutes />*/}
+      <StackRoutes />
       {/*<TabRoutes />*/}
-      <DrawerRoutes />
+      {/*<DrawerRoutes />*/}
       <StatusBar style="auto" />
     </NavigationContainer>
   );

@@ -22,7 +22,7 @@ export default function Home() {
         style={styles.button}
         onPress={() => navigation.navigate("Category")}
       >
-        <Text style={styles.text}>Go to Profile</Text>
+        <Text style={styles.text}>Go to Category</Text>
       </TouchableOpacity>
     </View>
   );
